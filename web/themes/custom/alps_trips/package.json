@@ -2,10 +2,14 @@
   "name": "alps_trips",
   "private": true,
   "scripts": {
-    "livereload": "livereload css"
+    "livereload": "livereload css",
+    "dev": "npx tailwindcss --input css/tailwindcss.css --output dist/index.css --watch"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "autoprefixer": "^10.4.17",
+    "livereload": "^0.9.3",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   },
   "version": "1.0.0",
   "main": "index.js",
